@@ -12,7 +12,7 @@ RUN apt-get update
 # Install Dependencies
 RUN apt-get install -y build-essential=12.1ubuntu2 \
 					   zlib1g-dev=1:1.2.8.dfsg-2ubuntu4.1 \
-					   locales=2.23-0ubuntu9 \
+					   locales \
 					   curl \
 					   git \
 					   openjdk-8-jre \
